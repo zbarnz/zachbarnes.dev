@@ -1,7 +1,17 @@
-import React from "react";
+import React, { SyntheticEvent } from "react";
 import styles from "../styles/Contact.module.css";
+import Snackbar from "@mui/material/Snackbar";
+import { useState } from "react";
 
 export default function Contact() {
+  const [open, setOpen] = useState(false);
+
+  function handleSubmit(e: any) {
+    e.preventDefault();
+    e.target.reset();
+    setOpen(true)
+  }
+
   return (
     <main className={styles.main}>
       <div className={styles.contact}>
@@ -10,6 +20,7 @@ export default function Contact() {
           action="https://api.web3forms.com/submit"
           method="POST"
           className={styles.formWrapper}
+          onSubmit={handleSubmit}
         >
           <input
             type="hidden"
@@ -49,6 +60,12 @@ export default function Contact() {
           </button>
         </form>
       </div>
+      <Snackbar
+        open={open}
+        autoHideDuration={6000}
+        onClose={()=> setOpen(false)}
+        message="Message Sent"
+      />
     </main>
   );
 }
