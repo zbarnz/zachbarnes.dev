@@ -10,7 +10,8 @@
     --action-selected: rgba(0, 0, 0, 0.08);
     --action-disabled: rgba(0, 0, 0, 0.26);
     --action-disabledBackground: rgba(0, 0, 0, 0.12);
-    --background-default: #fff;
+    --background-default: #e6e6e6;
+    --background-highlight: #ffffff;
     --divider: rgba(0, 0, 0, 0.12);
 
   }
@@ -25,7 +26,8 @@
     --action-selected: rgba(255, 255, 255, 0.16);
     --action-disabled: rgba(255, 255, 255, 0.3);
     --action-disabledBackground: rgba(255, 255, 255, 0.12);
-    --background-default: #121212;
+    --background-default: #242424;
+    --background-default: #000000;
     --divider: rgba(255, 255, 255, 0.12);
   }
 }
@@ -40,8 +42,8 @@ html,
 body {
   max-width: 100vw;
   overflow-x: hidden;
-  min-height: 99vh;
   font-family: "Montserrat";
+  height: 100%;
 }
 
 body {
