@@ -45,7 +45,7 @@ export default function Contact() {
           />
 
           <button type="submit" className={styles.submitButton}>
-            Submit Form
+            Send
           </button>
         </form>
       </div>
