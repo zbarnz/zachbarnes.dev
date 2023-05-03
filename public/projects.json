@@ -5,42 +5,49 @@
     "title": "MeetingMinder",
     "description": "Meeting steamlining application for professionals",
     "featured": true,
-    "image": "/images/meetingminder/16-9.png"
+    "image": "/images/meetingminder/16-9.png",
+    "link": "https://github.com/SocexSolutions/agenda-v2"
   },
    {
     "title": "Prescient",
     "description": "Daily habit tracker that gives feedback on positive trends",
     "featured": true,
-    "image": "/images/prescient/16-9.png"
+    "image": "/images/prescient/16-9.png",
+    "link": "https://github.com/thudsonbu/prescient"
   },
    {
     "title": "Bently Consulting Group",
     "description": "Live consulting website for Bently Consulting Group",
     "featured": false,
-    "image": "/images/bca/16-9.png"
+    "image": "/images/bca/16-9.png",
+    "link": "https://github.com/thudsonbu/bca"
   },
    {
     "title": "SocCoin",
     "description": "Feature rich blockchain based cryptocurrency containing poof-of-work, mining, and transactions",
     "featured": false,
-    "image": "/images/soccoin/16-9.png"
+    "image": "/images/soccoin/16-9.png",
+    "link": "https://github.com/zbarnz/SoCoin"
   },
    {
     "title": "Online Snake",
     "description": "Online Multiplayer version of the classic game of snake",
     "featured": false,
-    "image": "/images/snake/16-9.png"
+    "image": "/images/snake/16-9.png",
+    "link": "https://github.com/zbarnz/Online-Snake"
   },
    {
     "title": "C++ Memory Hacker",
     "description": "C++ hacking program showcase",
     "featured": false,
-    "image": "/images/cpp/16-9.png"
+    "image": "/images/cpp/16-9.png",
+    "link":  "https://github.com/zbarnz/CPP_Memory_Manipulation"
   },
    {
     "title": "SocPhones",
     "description": "Live privacy hardware focuesed shopify marketplace",
     "featured": false,
-    "image": "/images/socphones/16-9.png"
+    "image": "/images/socphones/16-9.png",
+    "link": "https://socphones.com/"
   }]
   }

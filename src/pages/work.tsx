@@ -2,6 +2,7 @@ import React from "react";
 import styles from "../styles/Work.module.css";
 import projects from "../../public/projects.json";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Work() {
   const allProjects = projects.data;
@@ -11,10 +12,12 @@ export default function Work() {
     description: string;
     image: string;
     featured: boolean;
+    link: string;
   }
 
   function buildCard(project: Project) {
     return (
+      <Link href={project.link}>
       <div key={project.title} className={styles.card}>
         <Image src={project.image} fill alt={project.description}></Image>
         <div className={styles.hoverCaption}>
@@ -22,6 +25,7 @@ export default function Work() {
           <p>{project.description}</p>
         </div>
       </div>
+      </Link>
     );
   }
 
