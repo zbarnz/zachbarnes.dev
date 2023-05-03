@@ -4,17 +4,15 @@ import { SocialIcon } from "react-social-icons";
 import Link from "next/link";
 
 export default function About() {
-  function cycleSkills() {}
-
   return (
     <main className={styles.main}>
       <section className={styles.section}>
         <article style={{ width: "80%" }}>
           <h2>Bio</h2>
           <div>
-            Hi, I'm Zach Barnes, a Database Software Developer with a passion
+            Hi, I&apos;m Zach Barnes, a Database Software Developer with a passion
             for software engineering and delivering value wherever I go. Ever
-            since I was a child, I've been fascinated by computers and the
+            since I was a child, I&apos;ve been fascinated by computers and the
             endless possibilities they offer. This lifelong interest led me to
             pursue a career in software development, where I specialize full
             stack development.
@@ -23,7 +21,7 @@ export default function About() {
             industry, allowing me to tackle complex projects with efficiency and
             precision. As a developer, I enjoy the challenge of creating
             dynamic, scalable, and user-friendly applications that make a
-            positive impact on people's lives. I am constantly seeking to expand
+            positive impact on people&apos;s lives. I am constantly seeking to expand
             my skills and stay up-to-date with the latest technologies and best
             practices in the field.
             <br /> <br />
@@ -103,7 +101,7 @@ export default function About() {
             My recent projects include Agenda, a meeting streamlining
             application for professionals, the Bentley Consulting Association
             website, and Prescient, a daily habit tracker application. I have
-            also been accepted into OpenAI's Alpha ChatGPT Plugin developer
+            also been accepted into OpenAI&apos;s Alpha ChatGPT Plugin developer
             program, where I creatively leverage Generative Pretrained
             Transformers to develop new plugins. My portfolio, which showcases
             my diverse technical expertise, can be found at
