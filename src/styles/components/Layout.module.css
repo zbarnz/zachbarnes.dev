@@ -11,6 +11,24 @@
   color: var(--background-default);
 }
 
+.nav button {
+  display: none;
+  outline: none;
+  border: none;
+  background-color: var(--transparent);
+  color: var(--background-default);
+  margin-right: 1em;
+  padding: 0 1em;
+}
+
+.nav button:hover {
+  background-color: var(--action-selected);
+}
+
+.nav button:active {
+  background-color: var(--action-disabled);
+}
+
 .nav h1 {
   line-height: 2em;
   height: 100%;
@@ -29,6 +47,51 @@
   text-decoration: none;
   list-style-type: none; 
   padding: 0; 
+}
+
+.fullMenu {
+  background-color: var(--text-primary);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: 1;
+}
+
+.fullMenu ul {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  color: var(--background-default);
+  font-size: xxx-large;
+  align-items: center;
+  justify-content: center;
+  gap: .5em;
+  margin-left: auto;
+  margin-right: auto;
+  text-decoration: none;
+  list-style-type: none; 
+  padding: 0; 
+}
+
+.closeIcon {
+  position: absolute;
+  right: .5em;
+  top: .5em;
+  font-size: xxx-large;
+  z-index: 2;
+  color: white;
+}
+
+@media screen and (max-width: 842px) {
+  .nav ul {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 842px) {
+  .nav button {
+    display: block;
+  }
 }
 
 .nav ul li {
