@@ -5,7 +5,7 @@
 
 .contact {
   width: 100%;
-  min-height: 100vh;
+  min-height: 85vh;
   background-color: var(--text-primary);
   margin-bottom: auto;
   display: flex;
