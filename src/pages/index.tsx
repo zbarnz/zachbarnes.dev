@@ -68,7 +68,7 @@ export default function Home() {
             ctx.arc(
               xCord +
                 (xCord - (xCord + mousePos.x) / 2) *
-                  (1 - distanceFromMouse / (canvas.width * mouseRadius)), 
+                  (1 - distanceFromMouse / (canvas.width * mouseRadius)),
               yCord +
                 (yCord - (yCord + mousePos.y) / 2) *
                   (1 - distanceFromMouse / (canvas.width * mouseRadius)),
@@ -146,10 +146,14 @@ export default function Home() {
           <button onClick={() => router.push("/contact")}>Contact</button>
         </section>
         <section className={styles.secondaryButtons}>
-          <button>
+          <button onClick={() => router.push("https://github.com/zbarnz")}>
             <GitHub fontSize="large" />
           </button>
-          <button>
+          <button
+            onClick={() =>
+              router.push("https://www.linkedin.com/in/zach-barnes-92436614b/")
+            }
+          >
             <LinkedIn fontSize="large" />
           </button>
         </section>
