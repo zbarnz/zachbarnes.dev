@@ -64,14 +64,15 @@ export default function Home() {
 
           if (distanceFromMouse < mouseRadius * canvas.width) {
             //draw attracted dot
+            //distanceFromMouse / (canvas.width * mouseRadius))
             ctx.beginPath();
             ctx.arc(
-              xCord +
-                (xCord - (xCord + mousePos.x) / 2) *
-                  (1 - distanceFromMouse / (canvas.width * mouseRadius)),
-              yCord +
-                (yCord - (yCord + mousePos.y) / 2) *
-                  (1 - distanceFromMouse / (canvas.width * mouseRadius)),
+              (xCord * (mouseRadius - Math.abs(xCord - mousePos.x)) +
+                mousePos.x) /
+                (mouseRadius - Math.abs(xCord - mousePos.x) + 1),
+              (yCord * (mouseRadius - Math.abs(yCord - mousePos.y)) +
+                mousePos.y) /
+                (mouseRadius - Math.abs(xCord - mousePos.y) + 1),
               radius,
               0,
               2 * Math.PI

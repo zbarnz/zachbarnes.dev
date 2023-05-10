@@ -16,7 +16,7 @@
     --transparent: rgba(0, 0, 0, 0);
   }
 
-@media (prefers-color-scheme: dark) {
+/* @media (prefers-color-scheme: dark) {
   :root {
     --text-primary: #fff;
     --text-secondary: rgba(255, 255, 255, 0.7);
@@ -30,7 +30,7 @@
     --background-default: #000000;
     --divider: rgba(255, 255, 255, 0.12);
   }
-}
+} */
 
 * {
   box-sizing: border-box;
