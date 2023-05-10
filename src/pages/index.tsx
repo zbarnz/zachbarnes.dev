@@ -63,10 +63,6 @@ export default function Home() {
           }
 
           if (distanceFromMouse < mouseRadius * canvas.width) {
-            // if dot is close to mouse draw a line
-            //let stroke opacit
-
-            // (distanceFromMouse / (canvas.width * mouseRadius))
             //draw attracted dot
             ctx.beginPath();
             ctx.arc(
@@ -105,15 +101,6 @@ export default function Home() {
       }
     }
   };
-
-  // useEffect(() => {
-  //   function handleResize() {
-  //     drawCanvas();
-  //   }
-
-  //   drawCanvas();
-  //   window.addEventListener("resize", handleResize);
-  // }, []);
 
   useEffect(() => {
     const handleMouseMove = (event: any) => {
