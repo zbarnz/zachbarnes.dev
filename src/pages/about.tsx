@@ -14,7 +14,7 @@ export default function About() {
             for software engineering and delivering value wherever I go. Ever
             since I was a child, I&apos;ve been fascinated by computers and the
             endless possibilities they offer. This lifelong interest led me to
-            pursue a career in software development, where I specialize full
+            pursue a career in software development, where I specialize in full
             stack development.
             <br /> <br />
             My love for coding and problem-solving has fueled my growth in the
