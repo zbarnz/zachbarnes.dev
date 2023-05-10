@@ -1,4 +1,13 @@
+.canvasJumbotron {
+  position: absolute;
+  top: 0;
+  background-color: var(--text-primary);
+  color: var(--background-default);
+  z-index: -1;
+}
+
 .jumbotron {
+  position: relative;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -6,11 +15,25 @@
   gap: 2em;
   height: 20em;
   width: 100%;
-  background-color: var(--text-primary);
   color: var(--background-default);
 }
 
-.jumbotron h1{
+.headerText {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2em;
+}
+
+@media screen and (max-width: 512px) {
+  .headerText {
+    background-color: black;
+    padding: 1em;
+  }
+}
+
+.jumbotron h1 {
   font-weight: 100;
 }
 
@@ -96,7 +119,7 @@
   position: absolute;
   bottom: 0;
   width: 100%;
-  background-color:  var(--action-selected);
+  background-color: var(--action-selected);
   height: 3em;
 }
 
