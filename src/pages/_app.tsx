@@ -4,6 +4,7 @@ import { useRouter } from "next/router";
 import "@fontsource/montserrat";
 import Layout from "../components/Layout";
 import Head from "next/head";
+import { Analytics } from '@vercel/analytics/react';
 
 export default function App({ Component, pageProps }: AppProps) {
   const noNav = ["/"];
@@ -23,6 +24,7 @@ export default function App({ Component, pageProps }: AppProps) {
           <link rel="icon" href="/favicon.ico" />
         </Head>
         <Component {...pageProps} />
+        <Analytics />
       </>
     );
   } else {
