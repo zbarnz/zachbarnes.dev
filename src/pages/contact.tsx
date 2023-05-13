@@ -7,7 +7,7 @@ export default function Contact() {
   const [open, setOpen] = useState(false);
 
   function handleSubmit(e: any) {
-    e.preventDefault();
+  e.preventDefault();
     e.target.reset();
     setOpen(true)
   }
@@ -20,7 +20,6 @@ export default function Contact() {
           action="https://api.web3forms.com/submit"
           method="POST"
           className={styles.formWrapper}
-          onSubmit={handleSubmit}
         >
           <input
             type="hidden"

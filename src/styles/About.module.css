@@ -62,3 +62,11 @@
 .link:hover {
   text-decoration: underline;
 }
+
+.inlinelink {
+  display: inline;
+}
+
+.inlinelink:hover {
+  text-decoration: underline;
+}

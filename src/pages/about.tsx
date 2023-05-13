@@ -10,20 +10,20 @@ export default function About() {
         <article style={{ width: "80%" }}>
           <h2>Bio</h2>
           <div>
-            Hi, I&apos;m Zach Barnes, a Database Software Developer with a passion
-            for software engineering and delivering value wherever I go. Ever
-            since I was a child, I&apos;ve been fascinated by computers and the
-            endless possibilities they offer. This lifelong interest led me to
-            pursue a career in software development, where I specialize in full
-            stack development.
+            Hi, I&apos;m Zach Barnes, a Database Software Developer with a
+            passion for software engineering and delivering value wherever I go.
+            Ever since I was a child, I&apos;ve been fascinated by computers and
+            the endless possibilities they offer. This lifelong interest led me
+            to pursue a career in software development, where I specialize in
+            full stack development.
             <br /> <br />
             My love for coding and problem-solving has fueled my growth in the
-            industry, allowing me to tackle complex projects with efficiency and
+            field, allowing me to tackle complex projects with efficiency and
             precision. As a developer, I enjoy the challenge of creating
             dynamic, scalable, and user-friendly applications that make a
-            positive impact on people&apos;s lives. I am constantly seeking to expand
-            my skills and stay up-to-date with the latest technologies and best
-            practices in the field.
+            positive impact on workflow efficiency. I am constantly seeking to
+            expand my skills and stay up-to-date with the latest technologies
+            and best practices in the field.
             <br /> <br />
             Programming is my passion and I eagerly look forward to bringing
             that passion to a like-minded team that shares my enthusiasm for
@@ -102,10 +102,14 @@ export default function About() {
             application for professionals, the Bentley Consulting Association
             website, and Prescient, a daily habit tracker application. I have
             also been accepted into OpenAI&apos;s Alpha ChatGPT Plugin developer
-            program, where I creatively leverage Generative Pretrained
+            program, where I creatively leverage Generative Pre-trained
             Transformers to develop new plugins. My portfolio, which showcases
-            my diverse technical expertise, can be found at
-            https://github.com/zbarnz.
+            my diverse technical expertise, can be found at&nbsp;
+            <Link
+              href="https://github.com/zbarnz"
+            >
+              https://github.com/zbarnz
+            </Link>
             <br /> <br />
             In my professional career, I have worked as an SQL Database
             Developer at Vistar, where I developed a highly customized warehouse

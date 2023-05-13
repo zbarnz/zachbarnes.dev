@@ -9,7 +9,6 @@ import { Analytics } from '@vercel/analytics/react';
 export default function App({ Component, pageProps }: AppProps) {
   const noNav = ["/"];
   const { asPath } = useRouter();
-  console.log(asPath);
 
   if (noNav.includes(asPath)) {
     return (
