@@ -28,16 +28,6 @@ export default function Home() {
         ((canvas.width + dotDensity) / dotDensity) *
           ((canvas.height + dotDensity) / dotDensity)
       );
-      console.log(
-        "canvas width: " +
-          canvas.width +
-          `\n` +
-          "canvas height: " +
-          canvas.height +
-          `\n` +
-          "DOTS: " +
-          DOTS
-      );
       const center = { x: canvas.width / 2, y: canvas.height / 2 };
 
       if (ctx !== null) {
