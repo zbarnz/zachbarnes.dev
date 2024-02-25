@@ -1,53 +1,46 @@
-
-  {
-    "data": [
-   {
-    "title": "MeetingMinder",
-    "description": "Meeting steamlining application for professionals",
-    "featured": true,
-    "image": "/images/meetingminder/16-9.png",
-    "link": "https://github.com/SocexSolutions/agenda-v2"
-  },
-   {
-    "title": "Prescient",
-    "description": "Daily habit tracker that gives feedback on positive trends",
-    "featured": true,
-    "image": "/images/prescient/16-9.png",
-    "link": "https://github.com/SocexSolutions/prescient"
-  },
-   {
-    "title": "Bently Consulting Group",
-    "description": "Live consulting website for Bently Consulting Group",
-    "featured": false,
-    "image": "/images/bca/16-9.png",
-    "link": "https://github.com/thudsonbu/bca"
-  },
-  {
-    "title": "SocPhones",
-    "description": "Live privacy hardware focuesed shopify marketplace",
-    "featured": false,
-    "image": "/images/socphones/16-9.png",
-    "link": "https://socphones.com/"
-  },
-   {
-    "title": "SocCoin",
-    "description": "Feature rich blockchain based cryptocurrency containing poof-of-work, mining, and transactions",
-    "featured": false,
-    "image": "/images/soccoin/16-9.png",
-    "link": "https://github.com/zbarnz/SoCoin"
-  },
-   {
-    "title": "Online Snake",
-    "description": "Online Multiplayer version of the classic game of snake",
-    "featured": false,
-    "image": "/images/snake/16-9.png",
-    "link": "https://github.com/zbarnz/Online-Snake"
-  },
-   {
-    "title": "C++ Memory Hacker",
-    "description": "C++ hacking program showcase",
-    "featured": false,
-    "image": "/images/cpp/16-9.png",
-    "link":  "https://github.com/zbarnz/CPP_Memory_Manipulation"
-  }]
-  }
+{
+  "data": [
+    {
+      "title": "MeetingMinder",
+      "description": "Meeting steamlining application for professionals",
+      "featured": true,
+      "image": "/images/meetingminder/16-9.png",
+      "link": "https://github.com/SocexSolutions/agenda-v2"
+    },
+    {
+      "title": "Bently Consulting Group",
+      "description": "Live consulting website for Bently Consulting Group",
+      "featured": true,
+      "image": "/images/bca/16-9.png",
+      "link": "https://github.com/thudsonbu/bca"
+    },
+    {
+      "title": "SocCoin",
+      "description": "Feature rich blockchain based cryptocurrency containing poof-of-work, mining, and transactions",
+      "featured": false,
+      "image": "/images/soccoin/16-9.png",
+      "link": "https://github.com/zbarnz/SoCoin"
+    },
+    {
+      "title": "Online Snake",
+      "description": "Online Multiplayer version of the classic game of snake",
+      "featured": false,
+      "image": "/images/snake/16-9.png",
+      "link": "https://github.com/zbarnz/Online-Snake"
+    },
+    {
+      "title": "C++ Memory Hacker",
+      "description": "C++ hacking program showcase",
+      "featured": false,
+      "image": "/images/cpp/16-9.png",
+      "link": "https://github.com/zbarnz/CPP_Memory_Manipulation"
+    },
+    {
+      "title": "Personal Recruiter",
+      "description": "AI Powered Application Assistant",
+      "featured": false,
+      "image": "/images/pr/16-9.png",
+      "link": "https://github.com/zbarnz/PersonalRecruiter"
+    }
+  ]
+}
